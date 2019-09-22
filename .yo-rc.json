@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.nukkpointer.animalbar"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "AnimalBarTracker",
+    "packageName": "com.nukkpointer.animalbar",
+    "packageFolder": "com/nukkpointer/animalbar",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZDZiY2JkMmUwZmM1YWE1ZGRmMWQxNGYyMzAxNDZmNzg4MTc0YzhmNGRiOTllNjhmZDZlMTQ1ZmJhMWQzZGJkNjgwMGE0ZTE2Mzc5ZWYwZmY0MzljMDdkNWI0MjJiMWFkYWViNjEyZTlhNDhmZDU4OTdiNTAzNmJkYTA3NDc4YWE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
