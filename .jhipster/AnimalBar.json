@@ -1,0 +1,39 @@
+{
+    "name": "AnimalBar",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "wrapper",
+            "otherEntityRelationshipName": "animalBar",
+            "relationshipName": "wrapper",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "puzzle",
+            "otherEntityRelationshipName": "animalBar",
+            "relationshipName": "puzzle",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "chocolate",
+            "otherEntityRelationshipName": "animalBar",
+            "relationshipName": "chocolate",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190928172026",
+    "entityTableName": "animal_bar",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

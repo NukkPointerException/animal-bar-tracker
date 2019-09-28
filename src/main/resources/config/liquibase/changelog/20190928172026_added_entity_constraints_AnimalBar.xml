@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity AnimalBar.
+    -->
+    <changeSet id="20190928172026-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="wrapper_id"
+                                 baseTableName="animal_bar"
+                                 constraintName="fk_animal_bar_wrapper_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="wrapper"/>
+
+        <addForeignKeyConstraint baseColumnNames="puzzle_id"
+                                 baseTableName="animal_bar"
+                                 constraintName="fk_animal_bar_puzzle_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="puzzle"/>
+
+        <addForeignKeyConstraint baseColumnNames="chocolate_id"
+                                 baseTableName="animal_bar"
+                                 constraintName="fk_animal_bar_chocolate_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="chocolate"/>
+
+    </changeSet>
+</databaseChangeLog>

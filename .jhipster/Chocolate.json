@@ -1,0 +1,31 @@
+{
+    "name": "Chocolate",
+    "fields": [
+        {
+            "fieldName": "leftImage",
+            "fieldType": "ChocolatePicture",
+            "fieldValues": "LION,ZEBRA,GAZELLE",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "rightImage",
+            "fieldType": "ChocolatePicture",
+            "fieldValues": "LION,ZEBRA,GAZELLE",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190928172029",
+    "entityTableName": "chocolate",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

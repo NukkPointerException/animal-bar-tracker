@@ -1,0 +1,23 @@
+{
+    "name": "Wrapper",
+    "fields": [
+        {
+            "fieldName": "picture",
+            "fieldType": "WrapperPicture",
+            "fieldValues": "MONKEY,LION",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190928172027",
+    "entityTableName": "wrapper",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

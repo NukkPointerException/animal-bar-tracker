@@ -1,0 +1,23 @@
+{
+    "name": "Puzzle",
+    "fields": [
+        {
+            "fieldName": "type",
+            "fieldType": "PuzzleType",
+            "fieldValues": "CROSSWORD,PARROTS_FLYING",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190928172028",
+    "entityTableName": "puzzle",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
